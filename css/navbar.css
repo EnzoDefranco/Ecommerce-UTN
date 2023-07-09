@@ -1,7 +1,7 @@
 .topheader{
     position: fixed; /*Para que se quede fijo en la parte superior en el viewport osea todo lo que vemos*/
-    box-shadow: 0px 4px 5px var(--gray);
-    background-color: var(--white);
+    box-shadow: 0px 4px 5px var(--gray); /*Para que tenga una sombra*/
+    background-color: var(--white); /*Color de fondo*/
     left: 0; /* Para que se quede fijo en la parte izquierda*/
     top: 0; /* Para que se quede fijo en la parte superior*/
     width: 100%; /*Para que ocupe todo el ancho*/
@@ -10,79 +10,77 @@
 .topnav{
     display: flex;
     justify-content: space-between; /*Lo  separamos en dos partes*/
-    padding: 10px;
+    padding: 10px; /*Para que tenga un poco de espacio*/
     max-width: 980px; /*Aunque el contendor o el viewport sea mas ancho, no se expandira mas alla de este limite*/
     margin: 0 auto; /*Para que se centre*/
 }
 /* CONFIGURACION DE NAV-CONTROLS */
 .nav-controls{
-    flex-grow: 1;
+    flex-grow: 1; /*Para que ocupe todo el espacio disponible*/
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between; /*Lo  separamos en dos partes*/
 }
 
 /* CONFIGURACION DE LOS BOTONES */
 .open-menu, .close-menu{
-    display: block;
-    background: none;
-    cursor: pointer;
-    font-size: 25px;
-    border: none;
+    display: block; /*Para que se muestre como un bloque*/
+    background: none; /*Para que no tenga fondo*/
+    cursor: pointer; /*Para que el cursor se convierta en una manito*/
+    font-size: 25px; /*Tamaño de la letra*/
+    border: none; /*Para que no tenga borde*/
 }
 
 /* CONFIGURACION DEL BOTON DE CERRADO */
 
 .close-menu{
-    align-self: flex-start;
-    padding: 22px 18px;
-    color: white;
+    align-self: flex-start; /*Para que se alinee a la izquierda*/
+    padding: 22px 18px; /*Para que tenga un poco de espacio*/
+    color: white; /*Color de la letra*/
 }
 
 
 .nav-menu{
-    display: flex;
-    flex-direction: column;
-    position: fixed;
-    left: 0;
-    top: 0;
-    width: 100%;
-    margin: 0%;
-    padding: 0 0px;
-    align-items: center;
-    background-color: var(--gray);
-    height: 100%;
-    overflow-y: auto;
+    display: flex; 
+    flex-direction: column; /*Para que se muestre como una columna*/
+    position: fixed; /*Para que se quede fijo en la parte superior*/
+    left: 0; /* Para que se quede fijo en la parte izquierda*/
+    top: 0;  /* Para que se quede fijo en la parte superior*/
+    width: 100%; /*Para que ocupe todo el ancho*/
+    margin: 0%; /*Para que no tenga margen*/
+    padding: 0 0px; 
+    align-items: center; /*Para que se alinee al centro*/
+    background-color: var(--gray); /*Color de fondo*/
+    height: 100%; /*Para que ocupe todo el alto*/
+    overflow-y: auto; /*Para que tenga un scroll*/
 
-    opacity: 0;
-    
-    
-    pointer-events: none;
+    opacity: 0; /*Para que no se muestre*/
+    pointer-events: none; /*Para que no se pueda interactuar con el*/
 }
 
 .nav-menu a{
-    color: var(--white);
-    line-height: 50px;
-    font-weight: 500;
-    font-size: 18px;
-    text-transform: uppercase;
+    color: var(--white); /*Color de la letra*/
+    line-height: 50px; /*Para que el texto este centrado verticalmente*/
+    font-weight: 500; /*Para que tenga un poco de grosor*/
+    font-size: 18px; /*Tamaño de la letra*/
+    text-transform: uppercase; /*Para que el texto este en mayusculas*/
 }
 
 .nav-menu a:hover{
-    color: var(--orange);
+    color: var(--orange); /*Color de la letra al pasar sobre el elemento*/
 }
 
 .nav-menu li{
-    margin: 0;
+    margin: 0; /*Para que no tenga margen*/
 }
 
 .menu_opened{
-    opacity: 1;
-    pointer-events: all;
-    transition: opacity 0.1s ease-in-out;
+    opacity: 1; /*Para que se muestre*/
+    pointer-events: all; /*Para que se pueda interactuar con el*/
+    transition: opacity 0.1s ease-in-out; /*Para que tenga una transicion*/
 }
 
 .open-menu:focus:not(:focus-visible), .close-menu:focus:not(:focus-visible){
-    outline: none;
+    outline: none; /*Para que no tenga un borde al hacer click*/
 }
 
 
