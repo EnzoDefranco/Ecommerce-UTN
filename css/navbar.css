@@ -1,0 +1,90 @@
+.topheader{
+    position: fixed; /*Para que se quede fijo en la parte superior en el viewport osea todo lo que vemos*/
+    box-shadow: 0px 4px 5px var(--gray);
+    background-color: var(--white);
+    left: 0; /* Para que se quede fijo en la parte izquierda*/
+    top: 0; /* Para que se quede fijo en la parte superior*/
+    width: 100%; /*Para que ocupe todo el ancho*/
+    
+} 
+.topnav{
+    display: flex;
+    justify-content: space-between; /*Lo  separamos en dos partes*/
+    padding: 10px;
+    max-width: 980px; /*Aunque el contendor o el viewport sea mas ancho, no se expandira mas alla de este limite*/
+    margin: 0 auto; /*Para que se centre*/
+}
+/* CONFIGURACION DE NAV-CONTROLS */
+.nav-controls{
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* CONFIGURACION DE LOS BOTONES */
+.open-menu, .close-menu{
+    display: block;
+    background: none;
+    cursor: pointer;
+    font-size: 25px;
+    border: none;
+}
+
+/* CONFIGURACION DEL BOTON DE CERRADO */
+
+.close-menu{
+    align-self: flex-start;
+    padding: 22px 18px;
+    color: white;
+}
+
+
+.nav-menu{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    margin: 0%;
+    padding: 0 0px;
+    align-items: center;
+    background-color: var(--gray);
+    height: 100%;
+    overflow-y: auto;
+
+    opacity: 0;
+    
+    
+    pointer-events: none;
+}
+
+.nav-menu a{
+    color: var(--white);
+    line-height: 50px;
+    font-weight: 500;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.nav-menu a:hover{
+    color: var(--orange);
+}
+
+.nav-menu li{
+    margin: 0;
+}
+
+.menu_opened{
+    opacity: 1;
+    pointer-events: all;
+    transition: opacity 0.1s ease-in-out;
+}
+
+.open-menu:focus:not(:focus-visible), .close-menu:focus:not(:focus-visible){
+    outline: none;
+}
+
+
+
+
