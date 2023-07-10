@@ -1,88 +1,402 @@
-.topheader{
-    position: fixed; /*Para que se quede fijo en la parte superior en el viewport osea todo lo que vemos*/
-    box-shadow: 0px 4px 5px var(--gray); /*Para que tenga una sombra*/
-    background-color: var(--white); /*Color de fondo*/
-    left: 0; /* Para que se quede fijo en la parte izquierda*/
-    top: 0; /* Para que se quede fijo en la parte superior*/
-    width: 100%; /*Para que ocupe todo el ancho*/
-    
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /*Para que el padding y el border no afecten al tamaño del elemento*/
 } 
-.topnav{
-    display: flex;
-    justify-content: space-between; /*Lo  separamos en dos partes*/
-    padding: 10px; /*Para que tenga un poco de espacio*/
+
+html{
+    font-size: 42.5%; /*El tamaño en pixeles es 16px, por lo tanto 55% de 16px es 8.8px*/
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: var(--white); /*Color de fondo*/
+    color: var(--dark); /*Color de texto*/
+}
+
+
+
+/* ************************************ */
+/* *********** UTILIDADES ************* */
+/* ************************************ */
+
+.container{
     max-width: 980px; /*Aunque el contendor o el viewport sea mas ancho, no se expandira mas alla de este limite*/
     margin: 0 auto; /*Para que se centre*/
 }
+
+.heading-1{
+    text-align: center; /*Para que el texto este centrado*/
+    font-weight: 500; /*Para que el texto este en negrita*/
+    font-size: 2.8rem;
+}
+
+/* ************************************ */
+/* *********** HEADER DE ARRIBA ************* */
+/* ************************************ */
+
+.container-hero{
+    background-color: #FAF0D7; /*Color de fondo*/
+}
+
+.hero{
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 1rem;
+}
+
+.customer-support{
+    display: none;
+}
+
+
+.container-logo{
+    display: flex; /*Para que se muestre como una fila*/
+    align-items: center; /*Para que se alinee al centro*/
+    gap: 0.5rem; /*Para que tenga un poco de espacio*/
+}
+
+.container-logo img{
+    width: 50px; /*Ancho de la imagen*/
+    height: 50px; /*Alto de la imagen*/
+}
+
+.container-logo h1 a{
+    text-decoration: none; /*Para que no tenga subrayado*/
+}
+
+.container-user{
+    display: flex; /*Para que se muestre como una fila*/
+    gap: 1rem; /*Para que tenga un poco de espacio*/
+    cursor: pointer; /*Para que el cursor se convierta en una manito*/
+}
+
+.container-user i{
+    font-size: 2rem; /*Tamaño de la letra*/
+}
+
+
+.content-shopping-cart{ 
+    display: none;
+}
+
+/* ************************************ */
+/* *********** NAVBAR ************* */
+/* ************************************ */
+
+/* CONFIGURACION DE NAVBAR */
+.container-navbar{ 
+    box-shadow: 0px 4px 5px var(--gray); /*Para que tenga una sombra*/
+    background-color: #FFD9C0;
+} 
+.navbar{ 
+    display: flex; 
+    justify-content: space-between; /*Lo  separamos en dos partes*/
+    align-items: center; /*Para que se alinee al centro*/
+    padding: 1rem 1rem; /*Para que tenga un poco de espacio*/
+}
+
 /* CONFIGURACION DE NAV-CONTROLS */
 .nav-controls{
-    flex-grow: 1; /*Para que ocupe todo el espacio disponible*/
-    display: flex;
+    display: block; 
     justify-content: space-between; /*Lo  separamos en dos partes*/
 }
 
-/* CONFIGURACION DE LOS BOTONES */
-.open-menu, .close-menu{
-    display: block; /*Para que se muestre como un bloque*/
-    background: none; /*Para que no tenga fondo*/
+.open-menu{
+    display: block;
+    font-size: 2rem; /*Tamaño de la letra*/
     cursor: pointer; /*Para que el cursor se convierta en una manito*/
-    font-size: 25px; /*Tamaño de la letra*/
+    background-color: transparent; /*Color de fondo*/
     border: none; /*Para que no tenga borde*/
+
 }
 
-/* CONFIGURACION DEL BOTON DE CERRADO */
+
+
 
 .close-menu{
-    align-self: flex-start; /*Para que se alinee a la izquierda*/
-    padding: 22px 18px; /*Para que tenga un poco de espacio*/
-    color: white; /*Color de la letra*/
+    display: none;
 }
 
+.menu {
+    display:none;
+}
 
-.nav-menu{
+.search-form{
+    position: relative; /*Para que se posicione relativo al padre*/
     display: flex; 
-    flex-direction: column; /*Para que se muestre como una columna*/
-    position: fixed; /*Para que se quede fijo en la parte superior*/
-    left: 0; /* Para que se quede fijo en la parte izquierda*/
-    top: 0;  /* Para que se quede fijo en la parte superior*/
-    width: 100%; /*Para que ocupe todo el ancho*/
-    margin: 0%; /*Para que no tenga margen*/
-    padding: 0 0px; 
-    align-items: center; /*Para que se alinee al centro*/
-    background-color: var(--gray); /*Color de fondo*/
-    height: 100%; /*Para que ocupe todo el alto*/
-    overflow-y: auto; /*Para que tenga un scroll*/
-
-    opacity: 0; /*Para que no se muestre*/
-    pointer-events: none; /*Para que no se pueda interactuar con el*/
+    align-items: center;
+    background-color: white; /*Color de fondo*/
+    height: 2.5rem; /*Altura del input*/
+    border: 3px solid white; /*Para que tenga un borde*/
+    border-radius: 1rem;
+}
+.search-form input::-webkit-search-cancel-button {
+	appearance: none;
+}
+.search-form input{
+    width: 100%; /*Para que ocupe todo el espacio*/
+    height: 100%; /*Para que ocupe todo el espacio*/
+    padding: 0 1rem; /*Para que tenga un poco de espacio*/
+    border: none; /*Para que no tenga borde*/
+    outline: none; /*Para que no tenga borde*/
+    font-size: 1.2rem; /*Tamaño de la letra*/
 }
 
-.nav-menu a{
-    color: var(--white); /*Color de la letra*/
-    line-height: 50px; /*Para que el texto este centrado verticalmente*/
-    font-weight: 500; /*Para que tenga un poco de grosor*/
-    font-size: 18px; /*Tamaño de la letra*/
-    text-transform: uppercase; /*Para que el texto este en mayusculas*/
+ .search-form .btn-search{
+    border: none; /*Para que no tenga borde*/
+    background-color: transparent; /*Color de fondo*/
+    cursor: pointer; /*Para que el cursor se convierta en una manito*/
+    display: flex;
+    padding: .5rem;
+    font-size: 1.5rem;
+} 
+
+/* ************************************ */
+/* *********** BANNER ************* */
+/* ************************************ */
+
+.banner{
+    background-image: linear-gradient(100deg, #000000, #00000020), url(../multimedia/books-1204029_1280.jpg);
+    height: 60rem;
+    background-size: cover;
+    background-position: center;
 }
 
-.nav-menu a:hover{
-    color: var(--orange); /*Color de la letra al pasar sobre el elemento*/
+.content-banner{
+    max-width: 50rem;
+    margin: 0 auto;
+    padding: 22rem 0;
 }
 
-.nav-menu li{
-    margin: 0; /*Para que no tenga margen*/
+.content-banner p{
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    font-weight: 500;
+    color:  #FFD9C0;
 }
 
-.menu_opened{
-    opacity: 1; /*Para que se muestre*/
-    pointer-events: all; /*Para que se pueda interactuar con el*/
-    transition: opacity 0.1s ease-in-out; /*Para que tenga una transicion*/
-}
-
-.open-menu:focus:not(:focus-visible), .close-menu:focus:not(:focus-visible){
-    outline: none; /*Para que no tenga un borde al hacer click*/
+.content-banner h2{
+    color: var(--white);
+    font-size: 3rem;
+    font-weight: 500;
+    line-height: 1.2;
 }
 
 
+.content-banner a{
+    margin-top: 2rem;
+    text-decoration: none;
+    display: inline-block;
+    padding: 1rem 3rem;
+    color: black;
+    background-color: #FFD9C0;
+    padding: 1rem 3rem;
+    text-transform: uppercase;
+    border-radius: 3rem;
+    cursor: pointer;
+
+}
+
+.content-banner a:hover{
+    background-color: #FFD9C0;
+    scale: 1.1;
+    color: black;
+}
+
+/* ************************************ */
+/* *********** MAIN CONTENT ************* */
+/* ************************************ */
+
+.main-content{
+    background-color: #DDE6ED;
+    }
+
+/* ************************************ */
+/* *********** FEATURES ************* */
+/* ************************************ */
+
+.container-features{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 3rem;
+    padding: 2rem 0;
+}
+
+.card-feature{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+
+    background-color: #9DB2BF;
+    border-radius: 2rem;
+    padding: 1rem 1rem;
+}
+
+.card-feature i{
+    font-size: 2.2rem;
+    color: #27374D;
+}
+
+.feature-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.feature-content span{
+    font-weight: 700;
+    font-size: 1.2rem;
+    color: black;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.feature-content p{
+    color: #ce7b1c;
+    font-weight: 500;
+    text-align: center;
+    font-size: 1rem;
+}
 
 
+
+/* ************************************ */
+/* *********** TOP PRODUCTS ************* */
+/* ************************************ */
+.top-products{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-bottom: 3rem;
+}
+
+.container-options{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+    gap: 1rem;
+}
+
+
+.container-options span{
+    font-weight: 700;
+    font-size: 1.8rem;
+    color: black;
+    background-color: #9DB2BF;
+    border-radius: 1rem;
+    padding: 1rem 1.5rem;
+    cursor: pointer;
+}
+
+.container-options span:hover{
+    background-color: #ec8918;
+    color: white;
+    transition: all 0.1s ease;
+    transform: scale(1.1);
+}
+
+.container-options span.active{
+    background-color: #ec8918;
+    color: white;
+}
+
+/* PRODUCTS */
+
+.container-products{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem,1fr)); /*Para que se adapte al tamaño de la pantalla*/
+    gap: 3rem;
+}
+
+.card-product{
+    background-color: #9c8686;
+    background-image: linear-gradient(to right, #dbd1d1, #afafaf);
+    padding: 1rem 2rem;
+    border-radius: .5rem;
+    cursor: pointer;
+    box-shadow: 0 0 .2rem rgba(0,0,0,0.1);
+    
+}
+
+
+
+.container-img img{
+    width: 100%;
+    height: 30rem;
+}
+
+.content-card-product{
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(4,min-content);
+    row-gap: 1rem;
+}
+
+.stars{
+    grid-row: 1/2;
+    grid-column: 1/-1;
+}
+
+.stars i{
+    color: #FFD700;
+    font-size: 1.5rem;
+}
+
+.content-card-product h3{
+    grid-row: 2/3;
+    grid-column: 1/-1;
+    font-size: 1.7rem;
+    text-align: center;
+    font-weight: 500;
+    color: #27374D;
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
+
+.content-card-product h3:hover{
+    color: #030303;
+    transition: all 0.1s ease;
+    scale: 1.1;
+}
+
+.add-cart{
+    justify-self: start;
+    border: 2px solid #ec8918;
+    padding: 1rem;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.add-cart:hover{
+    background-color: #ec8918;
+    color: white;
+    transition: all 0.1s ease;
+    transform: scale(1.5);
+}
+
+.add-cart i{
+    font-size: 1.5rem;
+}
+
+.content-card-product p{
+    font-size: 1.7rem;
+    font-weight: 500;
+    justify-self: end;
+    align-self: center;
+    color: #000000;
+}
+
+@media (min-width: 501px){
+    .container-products{
+        grid-template-columns: repeat(2,1fr);
+    }
+}

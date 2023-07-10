@@ -14,29 +14,188 @@
     <title>Ecommerce</title>
 </head>
 <body>
-    <header class="topheader"> <!-- Es para definir estilos y propiedades que se aplican a todo el header-->
-        <nav class="topnav"> <!-- Es para definir propiedades especifas del nav -->
-            <div class="nav-controls"> <!-- Este div abarca los controles del navbar, para abrir el menu, ir al inicio,etc-->
-                <button class="open-menu" aria-label="Abrir menu">
-                    <i class="fas fa-bars"></i> <!--Icono de barras-->
-                </button>
-                <a href="#" class="logo"> <!--Al tocar el logo nos redirecciona al home-->
-                    <img  height="50" width="50" src="multimedia/logoLibro.png" alt="Logo de Libro">
-                </a>
+    <header> 
+        <div class="container-hero">
+            <div class="container hero">
+                <div class="customer-support">
+                    <i class="fas fa-phone-square-alt"></i>
+                    <div class="content-customer-support">
+                        <span class="text">Soporte al cliente</span>
+                        <span class="number">+54 9 11 1234-5678</span>
+                    </div>
+                </div>
+                <div class="container-logo">
+                    <img  src="multimedia/logoLibro.png" alt="Logo de Libro">
+                    <h1 class="logo"><a href=""></a>TuLibro</h1>
+                </div>
+                <div class="container-user">
+                    <i class="fas fa-user"></i>
+                    <i class="fas fa-cart-plus"></i>
+                    <div class="content-shopping-cart">
+                        <span class="text">Carrito</span>
+                        <span class="number">(0)</span>
+                    </div>
+                </div>
             </div>
-            <ul class="nav-menu "> <!--Menu para refirnos al ul -->
-                <button class="close-menu" aria-label="Icono de cerrar menu"> <!--Boton para cerrar el menu-->
-                    <i class="fas fa-times"></i> <!--Icono de cerrar-->
-                </button>
-                <li><a href="#">Tematica</a></li>
-                <li><a href="#">Autores</a></li>
-                <li><a href="#">Editoriales</a></li>
-                <li><a href="#">Idioma</a></li>
-                <li><a href="#">Nosotros</a></li>
-                <li><a href="#">Contacto</a></li>
-            </ul>
-        </nav>
+        </div>
+        <div class="container-navbar"> <!-- Es para definir estilos y propiedades que se aplican a todo el header-->
+            <nav class="container navbar"> <!-- Es para definir propiedades especifas del nav -->
+                <div class="nav-controls"> <!-- Este div abarca los controles del navbar, para abrir el menu , ir al inicio,etc-->
+                    <button class="open-menu " aria-label="Abrir menu ">
+                        <i class="fas fa-bars"></i> <!--Icono de barras-->
+                    </button>
+                </div>
+                <div class="menu">
+                    <button class="close-menu" aria-label="Icono de cerrar menu "> <!--Boton para cerrar el menu --><i class="fas fa-times"></i></button>
+                    <ul class="list"> <!--menu para refirnos al ul -->
+                        <li><a href="#">Tematica</a></li>
+                        <li><a href="#">Autores</a></li>
+                        <li><a href="#">Editoriales</a></li>
+                        <li><a href="#">Idioma</a></li>
+                        <li><a href="#">Nosotros</a></li>
+                        <li><a href="#">Contacto</a></li>
+                    </ul>
+                </div>
+                <form class="search-form">
+                    <input type="search" placeholder="Buscar...">
+                    <button class="btn-search">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </form>
+            </nav>
+        </div>
     </header>
+    <section class="banner">
+        <div class="content-banner">
+            <p>Libros para vos</p>
+            <h2>Libros de todo tipo <br></h2>
+            <a href="#">Comprar ahora</a>
+        </div>
+    </section>
+    <main class="main-content">
+        <section class="container container-features">
+            <div class="card-feature">
+                <i class="fas fa-shopping-basket"></i>
+                <div class="feature-content">
+                    <span>Envio gratis</span>
+                    <p>Para compras mayores a $5000</p>
+                </div>
+            </div>
+            <div class="card-feature">
+                <i class="fas fa-shopping-basket"></i>
+                <div class="feature-content">
+                    <span>Envio gratis</span>
+                    <p>Para compras mayores a $5000</p>
+                </div>
+            </div>
+            <div class="card-feature">
+                <i class="fas fa-shopping-basket"></i>
+                <div class="feature-content">
+                    <span>Envio gratis</span>
+                    <p>Para compras mayores a $5000</p>
+                </div>
+            </div>
+            <div class="card-feature">
+                <i class="fas fa-shopping-basket"></i>
+                <div class="feature-content">
+                    <span>Envio gratis</span>
+                    <p>Para compras mayores a $5000</p>
+                </div>
+            </div>
+        </section>
+        <!-- HASTA ACA LAS FEATURES-->
+    
+        <section class="container top-products">
+            <h1 class="heading-1">Libros más vendidos</h1>
+            <div class="container-options">
+                <span class="active">Destacados</span>
+                <span>Mas recientes</span>
+                <span>Mas vendidos</span>
+            </div>
+            <div class="container-products">
+                <div class="card-product">
+                    <div class="container-img">
+                        <img height="50px" src="multimedia/Reliquias.jpg" alt="">
+                    </div>
+                    <div class="content-card-product">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h3>Harry Potter y las reliquias de la muerte</h3>
+                        <span class="add-cart">
+                            <i class="fas fa-shopping-basket"></i>
+                        </span>
+                        <p class="price">$15000</p>
+                    </div>
+
+                </div>
+                <div class="card-product">
+                    <div class="container-img">
+                        <img height="50px" src="multimedia/HarryPotterMisterioPrincipe.jpg" alt="">
+                    </div>
+                    <div class="content-card-product">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h3>Harry Potter y el misterio del principe</h3>
+                        <span class="add-cart">
+                            <i class="fas fa-shopping-basket"></i>
+                        </span>
+                        <p class="price">$15000</p>
+                    </div>
+
+                </div>
+                <div class="card-product">
+                    <div class="container-img">
+                        <img height="50px" src="multimedia/Camara-Secreta.jpg" alt="">
+                    </div>
+                    <div class="content-card-product">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h3>Harry Potter y la cámara secreta</h3>
+                        <span class="add-cart">
+                            <i class="fas fa-shopping-basket"></i>
+                        </span>
+                        <p class="price">$15000</p>
+                    </div>
+
+                </div>
+                <div class="card-product">
+                    <div class="container-img">
+                        <img height="50px" src="multimedia/Piedra-Filosofal.jpg" alt="">
+                    </div>
+                    <div class="content-card-product">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h3>Harry Potter y la piedra filosofal</h3>
+                        <span class="add-cart">
+                            <i class="fas fa-shopping-basket"></i>
+                        </span>
+                        <p class="price">$15000</p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </main>
 
 </body>
 </html>
