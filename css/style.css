@@ -10,8 +10,8 @@ html{
 
 body{
     font-family: 'Montserrat', sans-serif;
-    background-color: var(--white); /*Color de fondo*/
-    color: var(--dark); /*Color de texto*/
+    background-color: white; /*Color de fondo*/
+
 }
 
 
@@ -87,7 +87,7 @@ body{
 
 /* CONFIGURACION DE NAVBAR */
 .container-navbar{ 
-    box-shadow: 0px 4px 5px var(--gray); /*Para que tenga una sombra*/
+    box-shadow: 0px 4px 5px gray; /*Para que tenga una sombra*/
     background-color: #FFD9C0;
 } 
 .navbar{ 
@@ -178,7 +178,7 @@ body{
 }
 
 .content-banner h2{
-    color: var(--white);
+    color: white;
     font-size: 3rem;
     font-weight: 500;
     line-height: 1.2;
@@ -395,6 +395,57 @@ body{
     color: #000000;
 }
 
+footer{
+    background-color: #e2e1e1e3;
+    padding: 20px;
+    color: #666666;
+    margin-top: auto;
+}
+
+.footer-container {
+    display: flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+}
+
+.footer-section {
+    width: 30%;
+    margin-bottom: 20px;
+}
+
+.footer-section h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 5px;
+}
+
+.footer-section ul li a {
+    color: #666;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.bottom-bar {
+    background-color: #dddddd;
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+    color: #999;
+}
+
+.footer-section p{
+    font-size: 13px;
+}
+
 @media (min-width: 501px){
     html{
         font-size: 55%;
@@ -542,5 +593,56 @@ body{
     .container-options span{
         font-weight: 700;
         font-size: 1rem;
+    }
+
+    footer{
+        background-color: #e2e1e1e3;
+        padding: 20px;
+        color: #666666;
+        margin-top: auto;
+    }
+    
+    .footer-container {
+        display: flex;
+        justify-content:space-between;
+        flex-wrap: wrap;
+    }
+    
+    .footer-section {
+        width: 30%;
+        margin-bottom: 20px;
+    }
+    
+    .footer-section h3 {
+        font-size: ;
+        margin-bottom: 10px;
+    }
+    
+    .footer-section ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+    
+    .footer-section ul li {
+        margin-bottom: 5px;
+    }
+    
+    .footer-section ul li a {
+        color: #666;
+        text-decoration: none;
+        font-size: 1.8rem;
+    }
+    
+    .bottom-bar {
+        background-color: #dddddd;
+        padding: 10px;
+        text-align: center;
+        font-size: 1.4rem;
+        color: #999;
+    }
+    
+    .footer-section p{
+        font-size: 1.8rem;
     }
 }
