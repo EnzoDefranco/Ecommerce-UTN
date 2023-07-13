@@ -39,6 +39,8 @@ body{
     background-color: #FAF0D7; /*Color de fondo*/
 }
 
+
+
 .hero{
     display: flex; 
     justify-content: space-between; 
