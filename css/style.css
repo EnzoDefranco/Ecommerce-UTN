@@ -21,7 +21,7 @@ body{
 /* ************************************ */
 
 .container{
-    max-width: 980px; /*Aunque el contendor o el viewport sea mas ancho, no se expandira mas alla de este limite*/
+    max-width: 120rem; /*Aunque el contendor o el viewport sea mas ancho, no se expandira mas alla de este limite*/
     margin: 0 auto; /*Para que se centre*/
 }
 
@@ -38,6 +38,8 @@ body{
 .container-hero{
     background-color: #FAF0D7; /*Color de fondo*/
 }
+
+
 
 .hero{
     display: flex; 
@@ -94,7 +96,7 @@ body{
     display: flex; 
     justify-content: space-between; /*Lo  separamos en dos partes*/
     align-items: center; /*Para que se alinee al centro*/
-    padding: 1rem 1rem; /*Para que tenga un poco de espacio*/
+    padding: .5rem 1rem; /*Para que tenga un poco de espacio*/
 }
 
 /* CONFIGURACION DE NAV-CONTROLS */
@@ -219,8 +221,8 @@ body{
 
 .container-features{
     display: grid;
-    grid-template-columns: repeat(4,1fr);
-    gap: 3rem;
+    grid-template-columns: repeat(2,1fr);
+    gap: 1.5rem;
     padding: 2rem 0;
 }
 
@@ -233,7 +235,7 @@ body{
 
     background-color: #9DB2BF;
     border-radius: 2rem;
-    padding: 1rem 1rem;
+    padding: 1rem;
 }
 
 .card-feature i{
@@ -277,6 +279,7 @@ body{
 
 .container-options{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     margin-bottom: 1rem;
     gap: 1rem;
@@ -297,7 +300,6 @@ body{
     background-color: #ec8918;
     color: white;
     transition: all 0.1s ease;
-    transform: scale(1.1);
 }
 
 .container-options span.active{
@@ -309,7 +311,7 @@ body{
 
 .container-products{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(25rem,1fr)); /*Para que se adapte al tamaño de la pantalla*/
+    grid-template-columns: repeat(auto-fit, minmax(15rem,1fr)); /*Para que se adapte al tamaño de la pantalla*/
     gap: 3rem;
 }
 
@@ -395,15 +397,11 @@ body{
     color: #000000;
 }
 
-footer{
-    background-color: #e2e1e1e3;
-    padding: 20px;
-    color: #666666;
-    margin-top: auto;
-}
+
 
 .footer-container {
     display: flex;
+    flex-direction: column;
     justify-content:space-between;
     flex-wrap: wrap;
 }
@@ -466,7 +464,12 @@ footer{
         flex-direction: row;
         border-radius: 1.4rem;
     }
-
+    .container-features{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        gap: 3rem;
+        padding: 2rem 0;
+    }
     .feature-content{
         flex-direction: column;
     }
@@ -482,6 +485,22 @@ footer{
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(22rem,1fr)); /*Para que se adapte al tamaño de la pantalla*/
         gap: 3rem;
+    }
+
+    .container-options{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 1rem;
+        gap: 1rem;
+        padding: 0 1rem;
+    }
+    .container-options span:hover{
+
+        transform: scale(1.05);
+    }
+
+    .footer-container {
+        flex-direction: row;
     }
 
 
@@ -529,6 +548,13 @@ footer{
     .open-menu{
         display: none;
 
+    }
+
+    .container-features{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        gap: 3rem;
+        padding: 2rem 0;
     }
     
     .menu{
@@ -587,6 +613,11 @@ footer{
     }
     .container-options{
         gap: 2rem;
+        flex-direction: row;
+    }
+    .container-options span:hover{
+
+        transform: scale(1.1);
     }
     
     
@@ -595,15 +626,11 @@ footer{
         font-size: 1rem;
     }
 
-    footer{
-        background-color: #e2e1e1e3;
-        padding: 20px;
-        color: #666666;
-        margin-top: auto;
-    }
+
     
     .footer-container {
         display: flex;
+        flex-direction: row;
         justify-content:space-between;
         flex-wrap: wrap;
     }
