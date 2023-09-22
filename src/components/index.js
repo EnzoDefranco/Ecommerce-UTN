@@ -7,3 +7,5 @@ export * from './Main/Main';
 export * from './Navbar/BG';
 export * from './Navbar/Navbar';
 export * from './SectionBanner/SectionBanner';
+export * from './Stars/Stars';
+export * from './hooks/useBooks';

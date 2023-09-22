@@ -1,5 +1,6 @@
 import React from "react";
 import "./Books.css";
+import { Stars } from "../Stars/Stars";
 
 function ListOfBooks({ books }) {
   return (
@@ -11,17 +12,13 @@ function ListOfBooks({ books }) {
           </div>
           <div className="content-card-product">
             <div class="stars">
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
+                <Stars numberOfStars={book.estrellas} />
             </div>
             <h3>{book.title}</h3>
             <span className="add-cart">
               <i className="fas fa-shopping-basket"></i>
             </span>
-            <p className="price">$15000</p>
+            <p className="price">${book.paginas}</p>
           </div>
         </li>
       ))}
