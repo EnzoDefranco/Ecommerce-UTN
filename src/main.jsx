@@ -1,6 +1,5 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import App from './App.jsx'
 import './index.css'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import { Home } from './pages/index.js'
@@ -11,7 +10,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
       <Routes> {/* Routes es el componente que nos permite definir las rutas de nuestra aplicación */}
       <Route path="/" element={<Home />}> {/* Nos lleva a la página de inicio  */}
       </Route>
-      AIzaSyDEdSY3HZWz3bZ6Zd_3XQgxoZEp3ZYSvWc
+      {/* AIzaSyDEdSY3HZWz3bZ6Zd_3XQgxoZEp3ZYSvWc */}
     </Routes>
   </BrowserRouter>
 )

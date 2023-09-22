@@ -45,4 +45,17 @@ input{
 
 }
 
-
+/* Estilo para el mensaje de error */
+.error-message {
+    color: #ff5252; /* Color rojo oscuro */
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 8px; /* Espacio en la parte superior para separarlo de la barra de búsqueda */
+    text-align: center; /* Centrar el texto horizontalmente */
+    padding: 8px; /* Espacio interno para mejorar la legibilidad */
+    background-color: #ffebee; /* Fondo rojo claro */
+    border: 1px solid #ff5252; /* Borde rojo oscuro */
+    border-radius: 4px; /* Esquinas redondeadas */
+    margin-bottom: 2rem;
+  }
+  

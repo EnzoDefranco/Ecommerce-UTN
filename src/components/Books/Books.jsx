@@ -11,7 +11,7 @@ function ListOfBooks({ books }) {
             <img src={book.poster} alt="" />
           </div>
           <div className="content-card-product">
-            <div class="stars">
+            <div className="stars">
                 <Stars numberOfStars={book.estrellas} />
             </div>
             <h3>{book.title}</h3>
