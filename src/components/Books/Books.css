@@ -83,7 +83,16 @@
     align-self: center;
     color: #000000;
 }
+/* En tu archivo CSS */
+.no-books-message {
+    font-size: 1.2rem; /* Tamaño de fuente */
+    color: #ff0000; /* Color de texto, puedes cambiarlo a tu preferencia */
+    text-align: center; /* Alineación de texto al centro */
+    margin-top: 20px; /* Espacio superior */
+    font-weight: bold; /* Negrita */
+  }
 
+  
 @media (min-width: 501px){
     .container-products{
         display: grid;

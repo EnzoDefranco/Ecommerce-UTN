@@ -27,10 +27,11 @@ function ListOfBooks({ books }) {
 }
 
 function NoBooksResults() {
-  return <p>No se encontró el libro</p>;
+  return <p className="no-books-message">No se encontró el libro</p>;
 }
 
+
 export function Books({ books }) {
-  const hasBooks = books.length > 0;
+  const hasBooks = books?.length > 0;
   return hasBooks ? <ListOfBooks books={books} /> : <NoBooksResults />;
 }

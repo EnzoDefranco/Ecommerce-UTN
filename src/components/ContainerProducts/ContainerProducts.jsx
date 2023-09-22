@@ -42,12 +42,12 @@ function useSearch () {
 }
 
 export const ContainerProducts = () => {
-  const { books } = useBooks();
   const { search, setSearch, error } = useSearch()
+  const { books, getBooks } = useBooks({search});
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    console.log(search);
+    getBooks();
   };
 
   const handleChange = (event) => {
