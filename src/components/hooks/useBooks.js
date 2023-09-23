@@ -3,10 +3,10 @@ import noresults from "../../mocks/noresults.json";
 import { useState } from "react";
 import { json } from "react-router-dom";
 
-export function useBooks ({ search }) {
+export function useBooks ({ search, sort }) {
     const [responseMovies, setResponseMovies] = useState([])
 
-    const books = responseMovies.items;
+    const books = responseMovies.items ;
 
     const mappedBooks = books
     ?.map((book) => ({
@@ -23,6 +23,10 @@ export function useBooks ({ search }) {
         book.title && book.poster 
     );
 
+    const sortedBooks = sort
+    ? [...mappedBooks].sort((a, b) => b.estrellas - a.estrellas)
+    : mappedBooks;
+
       
     const getBooks = () => {
         if (search) {
@@ -34,5 +38,8 @@ export function useBooks ({ search }) {
             setResponseMovies(noresults)
         }
     }
-        return {books: mappedBooks, getBooks}
+
+
+    
+        return {books: sortedBooks, getBooks}
 }

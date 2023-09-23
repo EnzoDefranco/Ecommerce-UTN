@@ -42,19 +42,25 @@ function useSearch () {
 }
 
 export const ContainerProducts = () => {
+  const [sort, setSort] = useState(false)
   const { search, setSearch, error } = useSearch()
-  const { books, getBooks } = useBooks({search});
+  const { books, getBooks } = useBooks({search, sort});
 
   const handleSubmit = (event) => {
     event.preventDefault();
     getBooks();
   };
 
+  const handleSort = () => {
+    setSort(!sort) 
+  }
+
   const handleChange = (event) => {
     const newSearh = event.target.value;
     if (newSearh.startsWith(' ')) return
     setSearch(event.target.value);
   };
+
 
   
 
@@ -64,7 +70,12 @@ export const ContainerProducts = () => {
         <form className="search-form" onSubmit={handleSubmit}>
           <input onChange={handleChange} value={search} placeholder="Buscar libro por título, autor o palabra clave" />
         </form>
+        
         {error && <p className="error-message">{error}</p>}</header>
+        <div className="Filtrado">
+          <p>Filtrar por valoracion en orden descendiente</p>
+          <input onChange={handleSort} checked={sort} type="checkbox"  id="switch" /><label for="switch"></label>
+        </div>
       <main>
         <Books books={books} />
       </main>
