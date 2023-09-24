@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box; /*Para que el padding y el border no afecten al tamaño del elemento*/
+
+    
 } 
 
 html{

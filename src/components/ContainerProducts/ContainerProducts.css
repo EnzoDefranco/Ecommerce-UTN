@@ -1,4 +1,8 @@
 
+.container{
+  max-width: 120rem; /*Aunque el contendor o el viewport sea mas ancho, no se expandira mas alla de este limite*/
+  margin: 0 auto; /*Para que se centre*/
+}
 main{
     width: 100%;
     justify-content: center;
@@ -101,6 +105,7 @@ input{
     margin: 0; /* Eliminar margen predeterminado */
     font-size: 14px; /* Tamaño de fuente */
     color: #333; /* Color del texto */
+    margin-left: 3rem;
   }
   
   input:checked + label {

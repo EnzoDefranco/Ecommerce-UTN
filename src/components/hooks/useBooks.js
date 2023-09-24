@@ -8,7 +8,7 @@ export function useBooks ({ search, sort }) {
 
     const books = responseMovies.items ;
 
-    const mappedBooks = books
+    const mappedBooks = books 
     ?.map((book) => ({
       id: book.id,
       title: (book.volumeInfo?.title || '').split(' / ')[0],

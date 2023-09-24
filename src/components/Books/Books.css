@@ -11,8 +11,10 @@
     border-radius: .5rem;
     cursor: pointer;
     box-shadow: 0 0 .2rem rgba(0,0,0,0.1);
+    list-style-type: none;
     
 }
+
 
 .container-img img{
     width: 100%;
@@ -98,6 +100,7 @@
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(22rem,1fr)); /*Para que se adapte al tamaño de la pantalla*/
         gap: 3rem;
+        padding: 1rem 2rem; /* Agrega margen interior (padding) aquí para alejar los elementos del borde */
     }  
     .card-feature{
         flex-direction: row;
