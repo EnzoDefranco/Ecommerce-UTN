@@ -15,7 +15,7 @@ export const Header = () => {
           </div>
         </div>
         <div className="container-logo"> 
-          <img src="../../public/images/logo.png" alt="" />
+          <img src="../../images/logo.png" alt="" />
           <h1 className="logo"> 
             <a href="">TuLibro</a>
           </h1>

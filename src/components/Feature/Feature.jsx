@@ -4,6 +4,9 @@ import "./Feature.css";
 export const Feature = () => {
   return (
     <>
+      <div className="divColor">
+
+      </div>
       <section className="container container-features">
         <div className="card-feature">
           <i className="fas fa-shopping-basket"></i>

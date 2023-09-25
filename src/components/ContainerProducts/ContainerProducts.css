@@ -2,10 +2,13 @@
 .container{
   max-width: 120rem; /*Aunque el contendor o el viewport sea mas ancho, no se expandira mas alla de este limite*/
   margin: 0 auto; /*Para que se centre*/
+  
 }
+
 main{
     width: 100%;
     justify-content: center;
+    
 }
 
 input{

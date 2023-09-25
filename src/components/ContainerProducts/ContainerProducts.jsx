@@ -14,6 +14,14 @@ function useSearch () {
         isFirstInput.current = search === ''
         return
       }
+
+      if (isFirstInput.current) {
+        isFirstInput.current = false;
+        // Realiza una solicitud inicial para cargar libros por defecto aquí
+        getBooksDefault();
+        return;
+      }
+
       if (search === '') {
         setError('No se puede buscar un libro vacio')
         return
@@ -41,10 +49,13 @@ function useSearch () {
   return { search, setSearch, error }
 }
 
+
 export const ContainerProducts = () => {
   const [sort, setSort] = useState(false)
   const { search, setSearch, error } = useSearch()
   const { books, getBooks } = useBooks({search, sort});
+  const {page, setPage} = useState()
+  
 
   const handleSubmit = (event) => {
     event.preventDefault();

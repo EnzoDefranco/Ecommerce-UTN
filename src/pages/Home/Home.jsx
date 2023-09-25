@@ -10,11 +10,12 @@ export const Home = () => {
     <Header />
     <Navbar />
     <SectionBanner />
-    <div className='divColor container' >
-    <Main />
-    <ContainerProducts  />
-    < Footer />
-    </div>
+    <main>
+      <Main />
+      <ContainerProducts  />
+      < Footer />
+
+    </main>
     </>
   )
 }
