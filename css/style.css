@@ -46,6 +46,7 @@ body{
     justify-content: space-between; 
     align-items: center; 
     padding: 1rem;
+    margin: 0 1rem;
 }
 
 .customer-support{
@@ -177,6 +178,7 @@ body{
     margin-bottom: 1rem;
     font-weight: 500;
     color:  #FFD9C0;
+    margin-left: 1rem;
 }
 
 .content-banner h2{
@@ -184,6 +186,7 @@ body{
     font-size: 3rem;
     font-weight: 500;
     line-height: 1.2;
+    margin-left: 1rem;
 }
 
 
@@ -198,6 +201,7 @@ body{
     text-transform: uppercase;
     border-radius: 3rem;
     cursor: pointer;
+    margin-left: 1rem;
 
 }
 
@@ -224,6 +228,7 @@ body{
     grid-template-columns: repeat(2,1fr);
     gap: 1.5rem;
     padding: 2rem 0;
+    margin: 0 1rem;
 }
 
 .card-feature{
@@ -283,6 +288,7 @@ body{
     justify-content: center;
     margin-bottom: 1rem;
     gap: 1rem;
+    margin: 0 1rem;
 }
 
 
@@ -311,11 +317,12 @@ body{
 
 .container-products{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(15rem,1fr)); /*Para que se adapte al tamaño de la pantalla*/
+    grid-template-columns: repeat(auto-fit, minmax(25rem,1fr)); /*Para que se adapte al tamaño de la pantalla*/
     gap: 3rem;
 }
 
 .card-product{
+    margin: 0 1rem;
     background-color: #9c8686;
     background-image: linear-gradient(to right, #dbd1d1, #afafaf);
     padding: 1rem 2rem;
@@ -329,7 +336,7 @@ body{
 
 .container-img img{
     width: 100%;
-    height: 30rem;
+    height: 40rem;
 }
 
 .content-card-product{
@@ -403,6 +410,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-content:space-between;
+    align-items: center;
     flex-wrap: wrap;
 }
 
@@ -441,7 +449,7 @@ body{
 }
 
 .footer-section p{
-    font-size: 13px;
+    font-size: 11.5px;
 }
 
 @media (min-width: 501px){
@@ -555,6 +563,7 @@ body{
         grid-template-columns: repeat(4,1fr);
         gap: 3rem;
         padding: 2rem 0;
+        margin: 0 auto;
     }
     
     .menu{
@@ -588,6 +597,7 @@ body{
         flex-direction: row;
         border-radius: 1rem;
         cursor: pointer;
+        margin: 1rem 0;
     }
 
     .card-feature:hover{
@@ -673,3 +683,4 @@ body{
         font-size: 1.8rem;
     }
 }
+
