@@ -1,16 +1,13 @@
 import React,{ useContext} from 'react'
 import "./index.css"
-import {ProductsData} from '../../Data/ProductsData'
 import {CartContext} from '../../Context/CartContext'
 
 export const Products = () => {
 
-    /* Traemos del context la funcion para agregar un producto */
-    const { AddItemToCart } = useContext(CartContext);
-
+  const { addItemToCart, products } = useContext(CartContext);
   return (
     <ul className='container-products'>
-      {ProductsData.map((product,i) => (
+      {products && products.map((product,i) => (
         <li key={i} className='card-product'>
           <div className='container-img'>
             <img src={product.img} alt='' />
@@ -25,7 +22,15 @@ export const Products = () => {
             </div>
             <h3>{product.name}</h3>
             <p className="price">${product.price}</p>
-            <button onClick={() => AddItemToCart(product)}>Add to Cart</button>
+            <div>
+              {!product.inCart ? (
+                <button onClick={() => addItemToCart(product)}>
+                  Add to Cart
+                </button>
+              ) : (
+                <button>En el carrito</button>
+              )}
+            </div>
           </div>
         </li>
       ))}
