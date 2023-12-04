@@ -9,7 +9,7 @@ const deleteProduct = async (req, res) => {
 
   /* Buscamos el producto en nuestra DB por el nombre del que esta en el carrito */
   const { name, img, price, _id } = await Product.findOne({
-    name: productInCart.name,
+    name: productInCart.name
   });
 
   /* Buscamos y eliminamos el producto con la id */
