@@ -8,7 +8,7 @@
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
-    "scss": "node-sass src/components/ItemCart/index.scss src/components/ItemCart/index.css"
+    "scss": "node-sass src/components/SearchBar/index.scss src/components/SearchBar/index.css"
   },
   "dependencies": {
     "axios": "^1.6.2",
