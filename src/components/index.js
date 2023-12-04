@@ -1,6 +1,5 @@
 export * from './Books/Books';
 export * from './BurguerButton/BurguerButton';
-export * from './ContainerProducts/ContainerProducts';
 export * from './Feature/Feature';
 export * from './Footer/Footer';
 export * from './Header/Header';

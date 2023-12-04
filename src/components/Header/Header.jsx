@@ -1,6 +1,7 @@
 import React from "react";
 import { Navbar } from "../Navbar/Navbar";
 import "./Header.css";
+import {Cart} from '../Cart/index'
 
 export const Header = () => {
   return (
@@ -22,11 +23,6 @@ export const Header = () => {
         </div>
         <div className="container-user">
           <i className="fas fa-user"></i>
-          <i className="fas fa-cart-plus"></i>
-          <div className="content-shopping-cart">
-            <span className="text">Carrito</span>
-            <span className="number">(0)</span>
-          </div>
         </div>
       </div>
     </div>
