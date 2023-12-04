@@ -1,9 +1,10 @@
 const Product = require("../model/Product");
 
 const getProducts = async (req, res) => {
-  const products = await Product.find();
+  const searchQuery = req.query.search || '';
+  const products = await Product.find({ name: new RegExp(searchQuery, 'i') });
 
-  if (products) {
+  if (products.length > 0) {
     res.json({ products });
   } else {
     res.json({ mensaje: "No hay productos" });
