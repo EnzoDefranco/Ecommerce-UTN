@@ -41,7 +41,7 @@ export const Products = () => {
           ))}
         </ul>
       ) : (
-        <div className='no-products-message'>No se encontraron productos.</div>
+        <div className='no-books-message'>No se encontraron productos.</div>
       )}
     </div>
   );
