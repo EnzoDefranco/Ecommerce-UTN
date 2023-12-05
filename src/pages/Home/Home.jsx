@@ -44,7 +44,7 @@ export const Home = () => {
       <SectionBanner />
       <Main />
       <div className='mainn'>
-        <SearchBar setProductSearch={setProductSearch} />
+        <SearchBar products setProductSearch={setProductSearch} />
         <Products products={products} />
       </div>
       <Footer />

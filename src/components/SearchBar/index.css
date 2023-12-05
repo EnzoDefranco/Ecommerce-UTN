@@ -1,26 +1,26 @@
 .searchBar {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 19px 0;
-    position: relative;
-    width: 100%;
-  }
-  .searchBar input {
-    padding: 10px;
-    background-color: #d9d9d9;
-    border: none;
-    width: 50%;
-    max-width: 500px;
-    border-radius: 5px;
-  }
-  .searchBar input::placeholder {
-    font-size: 15px;
-    font-weight: bold;
-  }
-  .searchBar .cart {
-    position: absolute;
-    right: 0;
-    top: 50%;
-    transform: translateY(-50%); /* Centra verticalmente el carrito */
-  }
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Modificado de center a space-between */
+  
+  padding: 19px 0;
+
+  width: 100%;
+}
+.searchBar input {
+  margin-left: 37%;
+  padding: 10px;
+  background-color: #d9d9d9;
+  border: none;
+  width: 25%;
+  max-width: 600px;
+  border-radius: 5px;
+}
+.searchBar input::placeholder {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.rightCart {
+  margin-left: 10px; /* Ajusta el margen según tu preferencia */
+}

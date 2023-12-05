@@ -1,21 +1,24 @@
-import { createContext, useEffect, useState } from "react";
+import { createContext, useEffect, useState, useCallback } from "react";
 import axios from "axios";
 
-/* Creamos el context, se le puede pasar un valor inicial */
 export const CartContext = createContext();
 
 export const CartProvider = ({ children }) => {
-  /* Creamos un estado para el carrito */
-    const [cartItems, setCartItems] = useState([]);
-    const [products, setProducts] = useState([]);
+  const [cartItems, setCartItems] = useState([]);
+  const [products, setProducts] = useState([]);
+  const [productSearch, setProductSearch] = useState('');
 
-
-  
-  const getProducts = async () => {
-    await axios
-      .get("http://localhost:4000/products")
-      .then(({ data }) => setProducts(data.products));
-  };
+  const getProducts = useCallback(async () => {
+    if (productSearch !== '') {
+      await axios
+        .get(`http://localhost:4000/products?search=${productSearch}`)
+        .then(({ data }) => setProducts(data.products));
+    } else {
+      await axios
+        .get('http://localhost:4000/products')
+        .then(({ data }) => setProducts(data.products));
+    }
+  }, [productSearch]);
 
   const getProductsCart = async () => {
     return await axios
@@ -23,11 +26,11 @@ export const CartProvider = ({ children }) => {
       .then(({ data }) => setCartItems(data.productsCart))
       .catch((error) => console.error(error));
   };
-  /* Cada vez que se actualize el carrito seteamos el local storage para guardar los productos */
+
   useEffect(() => {
     getProducts();
     getProductsCart();
-  }, []);
+  }, [getProducts]);
 
   const addItemToCart = async (product) => {
     const { name, img, price } = product;
@@ -54,10 +57,10 @@ export const CartProvider = ({ children }) => {
     getProducts();
     getProductsCart();
   };
+
   return (
-    /* Envolvemos el children con el provider y le pasamos un objeto con las propiedades que necesitamos por value */
     <CartContext.Provider
-    value={{ cartItems, products, addItemToCart, editItemToCart }}
+      value={{ cartItems, products, productSearch, setProductSearch, addItemToCart, editItemToCart }}
     >
       {children}
     </CartContext.Provider>
