@@ -1,0 +1,856 @@
+{
+  "kind": "books#volumes",
+  "totalItems": 139,
+  "items": [
+    {
+      "kind": "books#volume",
+      "id": "Pd4Hy4Y-d9MC",
+      "etag": "1W+D2rBonEY",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/Pd4Hy4Y-d9MC",
+      "volumeInfo": {
+        "title": "Harry Potter y las Reliquias de la Muerte",
+        "authors": [
+          "J.K. Rowling"
+        ],
+        "publisher": "Pottermore Publishing",
+        "publishedDate": "2015-12-08",
+        "description": "Entregadme a Harry Potter -dijo la voz de Voldemort-y nadie sufrirá ningún daño. Entregadme a Harry Potter y dejaré el colegio intacto. Entregadme a Harry Potter y seréis recompensados. Cuando se monta en el sidecar de la moto de Hagrid y se elevan hacia el cielo, dejando atrás Privet Drive por última vez, Harry Potter sabe que Lord Voldemort y los mortífagos no deben estar muy lejos de ellos. El hechizo protector que ha mantenido a salvo a Harry hasta ahora se ha roto, pero no puede seguir escondiéndose. El Señor Tenebroso está infundiendo el miedo en todo y todos aquellos a quienes Harry ama y para detenerle Harry tendrá que encontrar y destruir los Horrocruxes restantes. La batalla final debe comenzar y Harry debe enfrentarse a su enemigo... Tema musical compuesto por James Hannigan.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781781102701"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1781102708"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 787,
+        "printType": "BOOK",
+        "categories": [
+          "Juvenile Fiction"
+        ],
+        "averageRating": 4,
+        "ratingsCount": 32,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "1.10.12.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=Pd4Hy4Y-d9MC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=Pd4Hy4Y-d9MC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "es",
+        "previewLink": "http://books.google.com.ar/books?id=Pd4Hy4Y-d9MC&printsec=frontcover&dq=intitle:%22Harry+Potter%22&hl=&cd=1&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=Pd4Hy4Y-d9MC&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=Pd4Hy4Y-d9MC"
+      },
+      "saleInfo": {
+        "country": "AR",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 104,
+          "currencyCode": "ARS"
+        },
+        "retailPrice": {
+          "amount": 104,
+          "currencyCode": "ARS"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=Pd4Hy4Y-d9MC&rdid=book-Pd4Hy4Y-d9MC&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 104000000,
+              "currencyCode": "ARS"
+            },
+            "retailPrice": {
+              "amountInMicros": 104000000,
+              "currencyCode": "ARS"
+            }
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "AR",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com.ar/books/download/Harry_Potter_y_las_Reliquias_de_la_Muert-sample-epub.acsm?id=Pd4Hy4Y-d9MC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com.ar/books/download/Harry_Potter_y_las_Reliquias_de_la_Muert-sample-pdf.acsm?id=Pd4Hy4Y-d9MC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=Pd4Hy4Y-d9MC&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Entregadme a Harry Potter -dijo la voz de Voldemort-y nadie sufrirá ningún daño."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "R2daemCCiF8C",
+      "etag": "GgKo8sA5ljs",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/R2daemCCiF8C",
+      "volumeInfo": {
+        "title": "Harry Potter y el cáliz de fuego",
+        "authors": [
+          "J.K. Rowling"
+        ],
+        "publisher": "Pottermore Publishing",
+        "publishedDate": "2015-12-08",
+        "description": "«Habrá tres pruebas, espaciadas en el curso escolar, que medirán a los campeones en muchos aspectos diferentes: sus habilidades mágicas, su osadía, sus dotes de deducción y, por supuesto, su capacidad para sortear el peligro.» El Torneo de los Tres Magos se va a celebrar en Hogwarts. Solo los magos mayores de diecisiete años pueden participar, pero eso no impide a Harry fantasear con la posibilidad de ganar la competición. Tiempo después, en Halloween, el Cáliz de Fuego elige a los competidores y Harry se asombra al descubrir que su nombre está entre los elegidos por la copa mágica. Se enfrentará a tareas mortales, dragones y magos oscuros, pero con la ayuda de sus mejores amigos, Ron y Hermione, ¡puede que consiga salir vivo de esta! Tema musical compuesto por James Hannigan.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781781101346"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1781101345"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 767,
+        "printType": "BOOK",
+        "categories": [
+          "Juvenile Fiction"
+        ],
+        "averageRating": 4.5,
+        "ratingsCount": 26,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "1.12.10.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=R2daemCCiF8C&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=R2daemCCiF8C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "es",
+        "previewLink": "http://books.google.com.ar/books?id=R2daemCCiF8C&printsec=frontcover&dq=intitle:%22Harry+Potter%22&hl=&cd=2&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=R2daemCCiF8C&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=R2daemCCiF8C"
+      },
+      "saleInfo": {
+        "country": "AR",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 104,
+          "currencyCode": "ARS"
+        },
+        "retailPrice": {
+          "amount": 104,
+          "currencyCode": "ARS"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=R2daemCCiF8C&rdid=book-R2daemCCiF8C&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 104000000,
+              "currencyCode": "ARS"
+            },
+            "retailPrice": {
+              "amountInMicros": 104000000,
+              "currencyCode": "ARS"
+            }
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "AR",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com.ar/books/download/Harry_Potter_y_el_c%C3%A1liz_de_fuego-sample-epub.acsm?id=R2daemCCiF8C&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com.ar/books/download/Harry_Potter_y_el_c%C3%A1liz_de_fuego-sample-pdf.acsm?id=R2daemCCiF8C&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=R2daemCCiF8C&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "«Habrá tres pruebas, espaciadas en el curso escolar, que medirán a los campeones en muchos aspectos diferentes: sus habilidades mágicas, su osadía, sus dotes de deducción y, por supuesto, su capacidad para sortear el peligro.» El ..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "8UJaAAAAYAAJ",
+      "etag": "Gt0XuvDw0YE",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/8UJaAAAAYAAJ",
+      "volumeInfo": {
+        "title": "Harry Potter y la piedra filosofal",
+        "authors": [
+          "J. K. Rowling"
+        ],
+        "publisher": "Lectorum Publications",
+        "publishedDate": "2001",
+        "description": "Harry Potter y la piedra filosofal es el primer volumen de la ya clásica serie de novelas fantásticas de la autora británica J.K. Rowling. «Con las manos temblorosas, Harry le dio la vuelta al sobre y vio un sello de lacre púrpura con un escudo de armas: un león, un águila, un tejón y una serpiente, que rodeaban una gran letra H.» Harry Potter nunca ha oído hablar de Hogwarts hasta que empiezan a caer cartas en el felpudo del número 4 de Privet Drive. Llevan la dirección escrita con tinta verde en un sobre de pergamino amarillento con un sello de lacre púrpura, y sus horripilantes tíos se apresuran a confiscarlas. Más tarde, el día que Harry cumple once años, Rubeus Hagrid, un hombre gigantesco cuyos ojos brillan como escarabajos negros, irrumpe con una noticia extraordinaria: Harry Potter es un mago, y le han concedido una plaza en el Colegio Hogwarts de Magia y Hechicería. ¡Está a punto de comenzar una aventura increíble! ENGLISH DESCRIPTION Harry Potter and the Sorcerer's Stone is the first volume of British author J.K. Rowling's now classic series of fantasy novels. With trembling hands, Harry turned over the envelope and saw a purple wax seal with a coat of arms: a lion, an eagle, a badger, and a snake, all surrounding a large letter H. Harry Potter has never heard of Hogwarts before, until letters start falling at the doorstep of 4 Privet Drive. The address is written in green ink on a yellowed parchment envelope with a purple wax seal stamped on it, and his repugnant aunt and uncle rush to remove and hide them. Later, on Harry's eleventh birthday, Rubeus Hagrid, a gigantic man whose eyes sparkle like black beetles, shows up with extraordinary news: Harry Potter is a wizard, and he has been awarded a place at Hogwarts School of Witchcraft and Wizardry. An incredible adventure is about to begin!",
+        "industryIdentifiers": [
+          {
+            "type": "OTHER",
+            "identifier": "PSU:000058699409"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 270,
+        "printType": "BOOK",
+        "categories": [
+          "Boarding schools"
+        ],
+        "averageRating": 5,
+        "ratingsCount": 1,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.6.3.0.preview.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=8UJaAAAAYAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=8UJaAAAAYAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        },
+        "language": "es",
+        "previewLink": "http://books.google.com.ar/books?id=8UJaAAAAYAAJ&dq=intitle:%22Harry+Potter%22&hl=&cd=3&source=gbs_api",
+        "infoLink": "http://books.google.com.ar/books?id=8UJaAAAAYAAJ&dq=intitle:%22Harry+Potter%22&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Harry_Potter_y_la_piedra_filosofal.html?hl=&id=8UJaAAAAYAAJ"
+      },
+      "saleInfo": {
+        "country": "AR",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "AR",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=8UJaAAAAYAAJ&hl=&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "ENGLISH DESCRIPTION Harry Potter and the Sorcerer&#39;s Stone is the first volume of British author J.K. Rowling&#39;s now classic series of fantasy novels."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "uZDYlfDVYmEC",
+      "etag": "gvEy769riH4",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/uZDYlfDVYmEC",
+      "volumeInfo": {
+        "title": "Harry Potter y el misterio del príncipe",
+        "authors": [
+          "J.K. Rowling"
+        ],
+        "publisher": "Pottermore Publishing",
+        "publishedDate": "2015-12-08",
+        "description": "En efecto, suspendido en el cielo encima del castillo, había un reluciente cráneo verde con lengua de serpiente, la marca que dejaban los mortífagos cuando salían de un edificio donde habían matado... Cuando Dumbledore llega a Privet Drive una noche de verano para recoger a Harry Potter, su mano, la que utiliza para blandir su varita, tiene un color negruzco y parece débil, pero no le cuenta el porqué. Los secretos y las sospechas se extienden por todo el mundo mágico y Hogwarts no es ninguna excepción. Harry está convencido de que Malfoy también porta la marca tenebrosa: hay un mortífago entre ellos. Harry necesitará magia muy poderosa y a sus verdaderos amigos mientras descubre los secretos más oscuros de Voldemort y Dumbledore le prepara para enfrentarse a su destino... Tema musical compuesto por James Hannigan.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781781101360"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1781101361"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 664,
+        "printType": "BOOK",
+        "categories": [
+          "Juvenile Fiction"
+        ],
+        "averageRating": 4,
+        "ratingsCount": 25,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "1.8.8.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=uZDYlfDVYmEC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=uZDYlfDVYmEC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "es",
+        "previewLink": "http://books.google.com.ar/books?id=uZDYlfDVYmEC&printsec=frontcover&dq=intitle:%22Harry+Potter%22&hl=&cd=4&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=uZDYlfDVYmEC&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=uZDYlfDVYmEC"
+      },
+      "saleInfo": {
+        "country": "AR",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 104,
+          "currencyCode": "ARS"
+        },
+        "retailPrice": {
+          "amount": 104,
+          "currencyCode": "ARS"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=uZDYlfDVYmEC&rdid=book-uZDYlfDVYmEC&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 104000000,
+              "currencyCode": "ARS"
+            },
+            "retailPrice": {
+              "amountInMicros": 104000000,
+              "currencyCode": "ARS"
+            }
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "AR",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com.ar/books/download/Harry_Potter_y_el_misterio_del_pr%C3%ADncipe-sample-epub.acsm?id=uZDYlfDVYmEC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com.ar/books/download/Harry_Potter_y_el_misterio_del_pr%C3%ADncipe-sample-pdf.acsm?id=uZDYlfDVYmEC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=uZDYlfDVYmEC&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "En efecto, suspendido en el cielo encima del castillo, había un reluciente cráneo verde con lengua de serpiente, la marca que dejaban los mortífagos cuando salían de un edificio donde habían matado."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "56cZPAAACAAJ",
+      "etag": "puY88l2DaE8",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/56cZPAAACAAJ",
+      "volumeInfo": {
+        "title": "Harry Potter y la piedra filosofal",
+        "authors": [
+          "J. K. Rowling"
+        ],
+        "publishedDate": "2004",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "8478888616"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9788478888610"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 255,
+        "printType": "BOOK",
+        "averageRating": 4.5,
+        "ratingsCount": 4,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=56cZPAAACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=56cZPAAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        },
+        "language": "es",
+        "previewLink": "http://books.google.com.ar/books?id=56cZPAAACAAJ&dq=intitle:%22Harry+Potter%22&hl=&cd=5&source=gbs_api",
+        "infoLink": "http://books.google.com.ar/books?id=56cZPAAACAAJ&dq=intitle:%22Harry+Potter%22&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Harry_Potter_y_la_piedra_filosofal.html?hl=&id=56cZPAAACAAJ"
+      },
+      "saleInfo": {
+        "country": "AR",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "AR",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=56cZPAAACAAJ&hl=&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "uUOBPgXQtvUC",
+      "etag": "xTG+NQhncgQ",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/uUOBPgXQtvUC",
+      "volumeInfo": {
+        "title": "Harry Potter y la Orden del Fénix",
+        "authors": [
+          "J.K. Rowling"
+        ],
+        "publisher": "Pottermore Publishing",
+        "publishedDate": "2015-12-08",
+        "description": "«Compartes los pensamientos y las emociones con el Señor Tenebroso. El director cree que no es conveniente que eso continúe ocurriendo. Quiere que te enseñe a cerrar tu mente al Señor Tenebroso.» La oscuridad se ciñe sobre Hogwarts. Tras el ataque de los dementores a su primo Dudley, Harry Potter sabe que Voldemort no se detendrá ante nada hasta dar con él. Hay muchos que niegan la vuelta del Señor Tenebroso, pero Harry no está solo: una orden secreta se reúne en Grimmauld Place para luchar contra las fuerzas oscuras. Harry debe permitir que el profesor Snape le enseñe a protegerse contra los brutales ataques de Voldemort a su mente. Pero cada día son más fuertes y Harry se está quedando sin tiempo... Tema musical compuesto por James Hannigan.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781781101353"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1781101353"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 1040,
+        "printType": "BOOK",
+        "categories": [
+          "Juvenile Fiction"
+        ],
+        "averageRating": 4,
+        "ratingsCount": 36,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "1.12.11.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=uUOBPgXQtvUC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=uUOBPgXQtvUC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "es",
+        "previewLink": "http://books.google.com.ar/books?id=uUOBPgXQtvUC&printsec=frontcover&dq=intitle:%22Harry+Potter%22&hl=&cd=6&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=uUOBPgXQtvUC&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=uUOBPgXQtvUC"
+      },
+      "saleInfo": {
+        "country": "AR",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 104,
+          "currencyCode": "ARS"
+        },
+        "retailPrice": {
+          "amount": 104,
+          "currencyCode": "ARS"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=uUOBPgXQtvUC&rdid=book-uUOBPgXQtvUC&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 104000000,
+              "currencyCode": "ARS"
+            },
+            "retailPrice": {
+              "amountInMicros": 104000000,
+              "currencyCode": "ARS"
+            }
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "AR",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com.ar/books/download/Harry_Potter_y_la_Orden_del_F%C3%A9nix-sample-epub.acsm?id=uUOBPgXQtvUC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com.ar/books/download/Harry_Potter_y_la_Orden_del_F%C3%A9nix-sample-pdf.acsm?id=uUOBPgXQtvUC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=uUOBPgXQtvUC&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "«Compartes los pensamientos y las emociones con el Señor Tenebroso."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "zl13g5uRM4EC",
+      "etag": "qcVwXdRSDQQ",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/zl13g5uRM4EC",
+      "volumeInfo": {
+        "title": "Harry Potter y la cámara secreta",
+        "authors": [
+          "J.K. Rowling"
+        ],
+        "publisher": "Pottermore Publishing",
+        "publishedDate": "2015-12-08",
+        "description": "«Hay una conspiración, Harry Potter. Una conspiración para hacer que este año sucedan las cosas más terribles en el Colegio Hogwarts de Magia y Hechicería.» El verano de Harry Potter ha incluido el peor cumpleaños de su vida, unos presagios muy poco halagüeños por parte de un elfo doméstico llamado Dobby y ser rescatado de casa de los Dursleys por su amigo Ron Weasley en un coche mágico volador. Cuando regresa al Colegio Hogwarts de Magia y Hechicería para cursar su segundo año, Harry escucha susurros extraños por los pasillos vacíos del colegio... Y luego comienzan los ataques. Se encuentran a estudiantes convertidos en piedra... Los terribles presagios de Dobby parecen hacerse realidad. Tema musical compuesto por James Hannigan.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781781101322"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1781101329"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 365,
+        "printType": "BOOK",
+        "categories": [
+          "Juvenile Fiction"
+        ],
+        "averageRating": 4,
+        "ratingsCount": 45,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "1.10.10.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=zl13g5uRM4EC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=zl13g5uRM4EC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "es",
+        "previewLink": "http://books.google.com.ar/books?id=zl13g5uRM4EC&printsec=frontcover&dq=intitle:%22Harry+Potter%22&hl=&cd=7&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=zl13g5uRM4EC&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=zl13g5uRM4EC"
+      },
+      "saleInfo": {
+        "country": "AR",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 104,
+          "currencyCode": "ARS"
+        },
+        "retailPrice": {
+          "amount": 104,
+          "currencyCode": "ARS"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=zl13g5uRM4EC&rdid=book-zl13g5uRM4EC&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 104000000,
+              "currencyCode": "ARS"
+            },
+            "retailPrice": {
+              "amountInMicros": 104000000,
+              "currencyCode": "ARS"
+            }
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "AR",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com.ar/books/download/Harry_Potter_y_la_c%C3%A1mara_secreta-sample-epub.acsm?id=zl13g5uRM4EC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com.ar/books/download/Harry_Potter_y_la_c%C3%A1mara_secreta-sample-pdf.acsm?id=zl13g5uRM4EC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=zl13g5uRM4EC&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "«Hay una conspiración, Harry Potter."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "f_1WzQEACAAJ",
+      "etag": "zr+2qc9luho",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/f_1WzQEACAAJ",
+      "volumeInfo": {
+        "title": "Harry Potter y el Prisionero de Azkaban / Harry Potter and the Prisoner of Azkaban",
+        "authors": [
+          "J. K. Rowling"
+        ],
+        "publisher": "Salamandra Infantil Y Juvenil",
+        "publishedDate": "2020-08-18",
+        "description": "Por la cicatriz que lleva en la frente, sabemos que Harry Potter no es un niño como los demás, sino el héroe que venció a lord Voldemort, culpable de la muerte de sus padres. Desde entonces, Harry no tiene más remedio que vivir con sus pesados tíos y su insoportable primo Dudley, todos ellos muggles, o sea, personas no magas. Igual que en las dos primeras partes de la serie -La piedra filosofal y La cámara secreta-, Harry aguarda con impaciencia el inicio del tercer curso en el Colegio Hogwarts, Harry se pelea con su bigotuda tía Marge, a la que convierte en globo, y debe huir en un autobús mágico. Mientras tanto, de la prisión de Azkaban se ha escapado un terrible villano, Sirius Black, un asesino en serie con poderes mágicos que fue cómplice de lord Voldemort y que parece dispuesto a eliminar a Harry del mapa. Y por si esto fuera poco, Harry deberá enfrentarse también a unos terribles monstruos, los dementores, seres abominables capaces de robarles la felicidad a los magos y de borrar todo recuerdo hermoso de aquellos que osan mirarlos. Lo que ninguno de estos malvados personajes sabe es que Harry, con la ayuda de sus fieles amigos Ron y Hermione, es capaz de todo y mucho más. -- Back cover.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "8498389259"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9788498389258"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 0,
+        "printType": "BOOK",
+        "categories": [
+          "England"
+        ],
+        "averageRating": 4,
+        "ratingsCount": 4,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=f_1WzQEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=f_1WzQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        },
+        "language": "es",
+        "previewLink": "http://books.google.com.ar/books?id=f_1WzQEACAAJ&dq=intitle:%22Harry+Potter%22&hl=&cd=8&source=gbs_api",
+        "infoLink": "http://books.google.com.ar/books?id=f_1WzQEACAAJ&dq=intitle:%22Harry+Potter%22&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Harry_Potter_y_el_Prisionero_de_Azkaban.html?hl=&id=f_1WzQEACAAJ"
+      },
+      "saleInfo": {
+        "country": "AR",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "AR",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=f_1WzQEACAAJ&hl=&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Por la cicatriz que lleva en la frente, sabemos que Harry Potter no es un niño como los demás, sino el héroe que venció a lord Voldemort, culpable de la muerte de sus padres."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "SHaREAAAQBAJ",
+      "etag": "tRNAv6iDPUI",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/SHaREAAAQBAJ",
+      "volumeInfo": {
+        "title": "Harry Potter y el misterio del príncipe / Harry Potter and the Half-Blood Prince",
+        "authors": [
+          "J.K. Rowling"
+        ],
+        "publisher": "National Geographic Books",
+        "publishedDate": "2020-08-18",
+        "description": "\"Harry Potter y el misterio del príncipe es la sexta novela de la ya clásica serie fantástica de la autora británica J.K. Rowling. Con dieciséis años cumplidos, Harry inicia el sexto curso en Hogwarts en medio de terribles acontecimientos que asolan Inglaterra. Elegido capitán del equipo de quidditch, los ensayos, los exámenes y las chicas ocupan todo su tiempo, pero la tranquilidad dura poco. A pesar de los férreos controles de seguridad que protegen la escuela, dos alumnos son brutalmente atacados. Dumbledore sabe que se acerca el momento, anunciado por la Profecía, en que Harry y Voldemort se enfrentarán a muerte: «El único con poder para vencer al Señor Tenebroso se acerca... Uno de los dos debe morir a manos del otro, pues ninguno de los dos podrá vivir mientras siga el otro con vida.» El anciano director solicitará la ayuda de Harry y juntos emprenderán peligrosos viajes para intentar debilitar al enemigo, para lo cual el joven mago contará con un viejo libro de pociones perteneciente a un misterioso personaje, alguien que se hace llamar Príncipe Mestizo.\" ENGLISH DESCRIPTION Harry Potter and the Half-Blood Prince is the sixth volume of British author J.K. Rowling’s now classic series of fantasy novels. At age sixteen, in the midst of serious events plaguing England, Harry begins his sixth year at Hogwarts. Having been chosen captain of the Quidditch team, practices, tests, and girls are keeping him busy, but that peace and tranquility is short-lived. Despite tight security measures that protect the school, two students are brutally attacked. Dumbledore knows that, as proclaimed in the Prophecy, the time is approaching when Harry and Voldemort must face each other in a deadly match: \"The only one with strong enough powers to defeat the Dark Lord is approaching ... One of the two must die at the hands of the other, because neither can live as long as the other is still alive.” The old Headmaster will enlist Harry's help, and together they will undertake dangerous trips in order to try to weaken the enemy, for this the young wizard will have the help of an old potion book that belonged to a mysterious person, someone who calls himself the Half-Blood Prince.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9788498389289"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "8498389283"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": false
+        },
+        "pageCount": 0,
+        "printType": "BOOK",
+        "categories": [
+          "Juvenile Fiction"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=SHaREAAAQBAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=SHaREAAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        },
+        "language": "es",
+        "previewLink": "http://books.google.com.ar/books?id=SHaREAAAQBAJ&dq=intitle:%22Harry+Potter%22&hl=&cd=9&source=gbs_api",
+        "infoLink": "http://books.google.com.ar/books?id=SHaREAAAQBAJ&dq=intitle:%22Harry+Potter%22&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Harry_Potter_y_el_misterio_del_pr%C3%ADncipe.html?hl=&id=SHaREAAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "AR",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "AR",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=SHaREAAAQBAJ&hl=&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "&quot; ENGLISH DESCRIPTION Harry Potter and the Half-Blood Prince is the sixth volume of British author J.K. Rowling’s now classic series of fantasy novels."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "edZizQEACAAJ",
+      "etag": "e05FmBaiaqY",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/edZizQEACAAJ",
+      "volumeInfo": {
+        "title": "Harry Potter y la Orden Del Fénix / Harry Potter and the Order of the Phoenix",
+        "authors": [
+          "J. K. Rowling"
+        ],
+        "publisher": "Salamandra Infantil Y Juvenil",
+        "publishedDate": "2020-08-18",
+        "description": "Las tediosas vacaciones de verano en casa de sus tíos todavía no han acabado y Harry se encuentra más inquieto que nunca. Apenas ha tenido noticias de Ron y Hermione, y presiente que algo extraño está sucediendo en Hogwarts. En efecto, cuando por fin comienza otro curso en el famoso colegio de magia y hechicería, sus temores se vuelven realidad. El Ministerio de Magia niega que Voldemort haya regresado y ha iniciado una campaña de desprestigio contra Harry y Dumbledore, para lo cual ha asignado a la horrible profesora Dolores Umbridge la tarea de vigilar todos sus movimientos. Así pues, además de sentirse solo e incomprendido, Harry sospecha que Voldemort puede adivinar sus pensamientos, e intuye que el temible mago trata de apoderarse de un objeto secreto que le permitiría recuperar su poder destructivo. -- Back cover.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "8498389275"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9788498389272"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 0,
+        "printType": "BOOK",
+        "categories": [
+          "England"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=edZizQEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=edZizQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        },
+        "language": "es",
+        "previewLink": "http://books.google.com.ar/books?id=edZizQEACAAJ&dq=intitle:%22Harry+Potter%22&hl=&cd=10&source=gbs_api",
+        "infoLink": "http://books.google.com.ar/books?id=edZizQEACAAJ&dq=intitle:%22Harry+Potter%22&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Harry_Potter_y_la_Orden_Del_F%C3%A9nix_Harry.html?hl=&id=edZizQEACAAJ"
+      },
+      "saleInfo": {
+        "country": "AR",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "AR",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=edZizQEACAAJ&hl=&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Harry Potter y la Orden del Fénix es la quinta entrega de la ya clásica serie de fantasía de la autora británica J.K. Rowling. «El director cree que no es conveniente que eso continúe ocurriendo."
+      }
+    }
+  ]
+}

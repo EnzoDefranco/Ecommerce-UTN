@@ -1,0 +1,92 @@
+
+.container-hero{
+    background-color: #FAF0D7; /*Color de fondo*/
+}
+
+
+.hero{
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 1rem;
+    margin: 0 3rem;
+}
+
+.customer-support{
+    display: none;
+}
+
+
+.container-logo{
+    display: flex; /*Para que se muestre como una fila*/
+    align-items: center; /*Para que se alinee al centro*/
+    gap: 0.5rem; /*Para que tenga un poco de espacio*/
+}
+
+.container-logo img{
+    width: 50px; /*Ancho de la imagen*/
+    height: 50px; /*Alto de la imagen*/
+}
+
+.container-logo h1 a{
+    text-decoration: none; /*Para que no tenga subrayado*/
+}
+
+.container-user{
+    display: flex; /*Para que se muestre como una fila*/
+    gap: 1rem; /*Para que tenga un poco de espacio*/
+    cursor: pointer; /*Para que el cursor se convierta en una manito*/
+}
+
+.container-user i{
+    font-size: 2rem; /*Tamaño de la letra*/
+}
+
+
+.content-shopping-cart{ 
+    display: none;
+}
+
+.text,  .number{
+    font-size: 1.5rem; /*Tamaño de la letra*/
+    color: #000000; /*Color de la letra*/
+}
+
+@media (min-width: 501px){
+    .hero{
+        padding: 2.5rem;
+    }
+
+}
+
+@media (min-width: 801px){
+    .hero{
+        padding: 2rem 0;
+    }
+    .customer-support {
+        display: flex;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    .content-shopping-cart {
+        display: flex;
+        flex-direction: column;
+    }
+    .customer-support i {
+        font-size: 3.3rem;
+    }
+    
+    .content-customer-support {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container-logo{
+        gap: 1rem; /*Para que tenga un poco de espacio*/
+        margin-right: 7rem;
+
+    }
+
+
+}

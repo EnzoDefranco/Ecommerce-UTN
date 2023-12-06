@@ -1,0 +1,113 @@
+.container-products{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(22rem,1fr)); /*Para que se adapte al tamaño de la pantalla*/
+    gap: 3rem;
+    padding: 1rem 2rem; /* Agrega margen interior (padding) aquí para alejar los elementos del borde */
+}  
+
+.card-product{
+    background-color: #9c8686;
+    background-image: linear-gradient(to right, #dbd1d1, #afafaf);
+    padding: 1rem 2rem;
+    border-radius: .5rem;
+    cursor: pointer;
+    box-shadow: 0 0 .2rem rgba(0,0,0,0.1);
+    list-style-type: none;
+    
+}
+
+
+.container-img img{
+    width: 100%;
+    height: 30rem;
+}
+
+.content-card-product{
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(4,min-content);
+    row-gap: 1rem;
+}
+
+.stars{
+    grid-row: 1/2;
+    grid-column: 1/-1;
+}
+
+.stars i{
+    color: #FFD700;
+    font-size: 1.5rem;
+}
+
+.content-card-product h3{
+    grid-row: 2/3;
+    grid-column: 1/-1;
+    font-size: 1.7rem;
+    text-align: center;
+    font-weight: 500;
+    color: #27374D;
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
+
+.content-card-product h3:hover{
+    color: #030303;
+    transition: all 0.1s ease;
+    scale: 1.1;
+}
+
+.add-cart{
+    justify-self: start;
+    border: 2px solid #ec8918;
+    padding: 1rem;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.add-cart:hover{
+    background-color: #ec8918;
+    color: white;
+    transition: all 0.1s ease;
+    transform: scale(1.5);
+}
+
+.add-cart i{
+    font-size: 1.5rem;
+}
+
+.content-card-product p{
+    font-size: 1.7rem;
+    font-weight: 500;
+    justify-self: end;
+    align-self: center;
+    color: #000000;
+}
+/* En tu archivo CSS */
+.no-books-message {
+    font-size: 1.2rem; /* Tamaño de fuente */
+    color: #ff0000; /* Color de texto, puedes cambiarlo a tu preferencia */
+    text-align: center; /* Alineación de texto al centro */
+    margin-top: 20px; /* Espacio superior */
+    font-weight: bold; /* Negrita */
+  }
+
+  
+@media (min-width: 501px){
+
+    .card-feature{
+        flex-direction: row;
+        border-radius: 1.4rem;
+    }
+}
+
+@media (min-width: 801px){
+    .container-products{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(20rem,1fr)); /*Para que se adapte al tamaño de la pantalla*/
+        gap: 3rem;
+    }
+}
